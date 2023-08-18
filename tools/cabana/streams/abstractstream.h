@@ -7,6 +7,7 @@
 #include <QColor>
 #include <QHash>
 
+#include "tools/cabana/vcan/vcan.h"
 #include "tools/cabana/dbc/dbcmanager.h"
 #include "tools/cabana/settings.h"
 #include "tools/cabana/util.h"

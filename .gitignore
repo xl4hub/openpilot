@@ -87,3 +87,8 @@ build/
 
 poetry.toml
 Pipfile
+
+tools/replay/settings
+selfdrive/ui/settings
+settings
+

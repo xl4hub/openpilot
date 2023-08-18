@@ -63,6 +63,7 @@ void AbstractStream::updateEvent(const MessageId &id, double sec, const uint8_t 
   if (!new_msgs->contains(id)) {
     new_msgs->insert(id, {});
   }
+  vcan_output(id.source, id.address, data, size);
 }
 
 bool AbstractStream::postEvents() {
